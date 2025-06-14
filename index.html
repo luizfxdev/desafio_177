@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decifrador Alienígena</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="decifrador-container">
+      <h1>Decifrador Alienígena</h1>
+
+      <div class="input-section">
+        <p class="input-instructions">Insira a sequência numérica separada por vírgulas:</p>
+
+        <p class="exemplo-sequencia">Ex: 10, 15, 3, 7</p>
+
+        <div class="input-wrapper">
+          <textarea
+            id="inputSequence"
+            placeholder="Digite sua sequência aqui..."
+            rows="4"
+            spellcheck="false"
+          ></textarea>
+          <div class="decorative-line"></div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <div class="button-container-1">
+          <span class="mas">DECIFRAR</span>
+          <button id="work" type="button" onclick="decodeMessage()">DECIFRAR</button>
+        </div>
+
+        <div class="button-container-1">
+          <span class="mas">RETORNAR</span>
+          <button id="returnBtn" type="button" onclick="resetApp()">RETORNAR</button>
+        </div>
+      </div>
+
+      <div id="output" class="output-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

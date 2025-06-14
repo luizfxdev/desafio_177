@@ -1,0 +1,21 @@
+{
+  "name": "decifrador-alienigena",
+  "version": "1.0.0",
+  "description": "Aplicação para decifrar mensagens alienígenas",
+  "scripts": {
+    "watch-sass": "sass --watch styles.scss:styles.css --style compressed",
+    "build-sass": "sass styles.scss:styles.css --style compressed",
+    "start": "npm run watch-sass"
+  },
+  "keywords": [
+    "decifrador",
+    "alienigena",
+    "nasa",
+    "sass"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
